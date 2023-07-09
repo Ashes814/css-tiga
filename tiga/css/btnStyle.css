@@ -1,0 +1,31 @@
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-normal:hover {
+  background-color: blue;
+  transition: all 0.5s;
+  color: #fff;
+}
+
+.btn-power:hover {
+  background-color: var(--red-color);
+  transition: all 0.5s;
+  color: #fff;
+}
+.btn-fly:hover {
+  background-color: var(--purple-color);
+  transition: all 0.5s;
+  color: #fff;
+}
